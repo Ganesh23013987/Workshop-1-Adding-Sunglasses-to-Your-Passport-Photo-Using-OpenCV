@@ -36,7 +36,7 @@ import matplotlib.pyplot as plt
 faceImage = cv2.imread('Ganesh D.jpg')
 plt.imshow(faceImage[:,:,::-1]);plt.title("Face")
 ```
-<img width="592" height="606" alt="image" src="https://github.com/user-attachments/assets/f47b43c1-6a63-4516-a0c9-166e271ed980" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/f47b43c1-6a63-4516-a0c9-166e271ed980" />
 ```
 faceImage.shape
 ```
@@ -66,7 +66,7 @@ plt.figure(figsize=[15,15])
 plt.subplot(121);plt.imshow(glassBGR[:,:,::-1]);plt.title('Sunglass Color channels');
 plt.subplot(122);plt.imshow(glassMask1,cmap='gray');plt.title('Sunglass Alpha channel');
 ```
-<img width="1501" height="335" alt="image" src="https://github.com/user-attachments/assets/dbd43f6f-283b-49dd-ba00-a4def12822e4" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/dbd43f6f-283b-49dd-ba00-a4def12822e4" />
 
 ```
 # Make a copy
